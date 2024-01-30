@@ -1,0 +1,31 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.text-info {
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
